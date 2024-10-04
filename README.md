@@ -10,26 +10,13 @@ eg: const urlList = [
   "https://example3.com"
 ];
 
--- edit the time interval in minutes in the equation
+#edit the maximum time and minimum time as required.
 
 function getRandomInterval() {
-  return Math.random() * (max time - minimum time) + minimum time; // Random time between minimum time to max time in minutes
+let minimum_time = 2; // minimum time is 2 minutes
+let maximum_time = 5; // maximum time is 5 minutes
+
+  return Math.random() * (maximum_time - minimum_time) + minimum_time; // Random time between minimum time to max time in minutes
 }
 
-
-eg:1
-function getRandomInterval() {
-  return Math.random() * (6 - 2) + 2; // Random time value between 2 to 6 minutes
-}
-
-eg2:
-function getRandomInterval() {
-  return Math.random() * (6 - 2) + 1; // Random time value between 1 to 6 minutes
-}
-
-eg3:
-function getRandomInterval() {
-  return Math.random() * (10 - 0) + 0; // Random time valuebetween 0 to 10 minutes
-}
-
-
+#load the extension to the chrome browser by turning on developer mode.
