@@ -1,8 +1,8 @@
 # Random-URL-Loader-with-Referrer-link
 Chrome extension for random url automatic load with a given list of urls with random time between 2min to 6 min
 
--- Download the zip file into a folder.
--- edit the url list in the background.js file (add links with the given fromat with commas)
+# Download the zip file into a folder.
+# edit the url list in the background.js file (add links with the given fromat with commas)
 
 eg: const urlList = [
   "https://example1.com",
