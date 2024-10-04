@@ -20,3 +20,7 @@ let maximum_time = 5; // maximum time is 5 minutes
 }
 
 # load the extension to the chrome browser by turning on developer mode.
+
+# Open a new Tab and click the extension icon to activate it.
+
+# Do not close the tab let it away alone. it will randomly redirect the URL u provided with random time interval between the maximum and minimum time 
