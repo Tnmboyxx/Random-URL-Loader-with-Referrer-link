@@ -1,8 +1,8 @@
 const urlList = [
-  "https://example1.com",
-  "https://example2.com",
-  "https://example3.com",
-  "https://example4.com"
+  "https://translate.google.lk/?hl=en&vi=c&sl=en&tl=si&op=translate",
+  "https://chatgpt.com/",
+  "https://www.freepik.com/",
+  "https://apexonline.lk/#/login?returnUrl=%2Fhome"
 ];
 
 let currentTabId = null;
@@ -10,8 +10,8 @@ let previousUrl = null;
 
 function getRandomInterval() {
 
-  let maximum_time = 1; // 4 minutes
-  let minimum_time = 0; // 1 minutes
+  let maximum_time = 3; // 4 minutes
+  let minimum_time = 1; // 1 minutes
   return Math.random() * (maximum_time- minimum_time) + minimum_time; // Random time between 1 to 4 minutes
 }
 
